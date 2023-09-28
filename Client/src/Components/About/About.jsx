@@ -65,7 +65,7 @@ const About = ({ lightBg }) => {
               Python/Machine Learning.
             </p>
           </div>
-          <NavLink to={"http://localhost:3000/public/resume.pdf"} target="_blank" className={`btn btn-c ${lightBg?"d-text":"l-text"}`} >
+          <NavLink to={"https://himanshu-raj.vercel.app/public/resume.pdf"} target="_blank" className={`btn btn-c ${lightBg?"d-text":"l-text"}`} >
             View cv <HiMiniDocumentArrowDown style={{fontSize:"25px"}} /> </NavLink>
         </div>
       </div>
