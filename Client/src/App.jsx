@@ -12,7 +12,6 @@ import Skill from "./Components/Skill/Skill";
 import Services from "./Components/Services/Services";
 import Portfolio from "./Components/Portfolio/Portfolio";
 import Contact from "./Components/Contact/Contact";
-import { useSearchParams } from "react-router-dom";
 import MNavbar from "./Components/Navbar/M_Navbar";
 
 import { IoApps } from "react-icons/io5";
@@ -21,7 +20,13 @@ const App = () => {
   let [lightBg, setLightBg] = useState(true);
   const [mobileMenu, setMobileMenu] = useState(false)
 
+
+
   useEffect(() => {
+    const getBg = window.localStorage.getItem("lightBg")
+    if(getBg=="false"){
+      setLightBg(false)
+    }else{setLightBg(true)}
     AOS.init();
   }, []);
   return (

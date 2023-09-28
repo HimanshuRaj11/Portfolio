@@ -5,7 +5,6 @@ import { useEffect, useState } from "react";
 
 const Navbar = ({lightBg,setLightBg}) => {
 
-  // let [scroll, setScroll] = useSearchParams(false);
 
   const [scroll, setScroll] = useState(false);
  useEffect(() => {
@@ -67,8 +66,10 @@ const Navbar = ({lightBg,setLightBg}) => {
         {
             lightBg?<BsFillMoonFill className="Theam-icon" onClick={()=>{
                 setLightBg(false)
-            }}/>
-            :<BsSunFill className="Theam-icon"onClick={()=>{
+                window.localStorage.setItem('lightBg',false)
+              }}/>
+              :<BsSunFill className="Theam-icon"onClick={()=>{
+                window.localStorage.setItem('lightBg',true)
                 setLightBg(true)
             }}/>
         }
