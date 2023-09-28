@@ -1,0 +1,50 @@
+.Portfolio {
+    width: 100%;
+
+    .work {
+        width: 80%;
+        padding: 20px 0 50px 0;
+
+        .projects {
+            width: 100%;
+            .project {
+                cursor: pointer;
+                margin: 20px;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 12px;
+                width: 18em;
+                height: auto;
+                // aspect-ratio: 1/1.2;
+                transition: all 1.3s ease;
+                &:hover {
+                    transform: scale(1.09);
+                    -webkit-box-shadow: 0px 0px 15px 0px rgba(107, 103, 107, 1);
+                    -moz-box-shadow: 0px 0px 15px 0px rgba(107, 103, 107, 1);
+                    box-shadow: 0px 0px 15px 0px rgba(107, 103, 107, 1);
+                }
+
+                .img{
+                    width: 18em;
+                    object-fit: contain;
+                    
+                    img{
+                        width: 18em;
+                        border-radius: 10px;
+
+                    }
+                }
+
+                .P-D{
+                    padding: 5px 20px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1070px){
+    .work{
+        width: 90% !important;
+    }
+}

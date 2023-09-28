@@ -1,0 +1,81 @@
+.nav-shadow {
+  box-shadow: 0px 7px 6px -1px rgba(0, 0, 0, 0.5);
+}
+
+.Navbar {
+  padding: 0;
+  width: 100%;
+  height: 50px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
+  justify-content: space-between;
+}
+.Navbar .logo {
+  cursor: pointer;
+  margin: 0 35px;
+  font-size: 30px;
+  letter-spacing: 1.2px;
+  font-weight: 600;
+}
+.Navbar .menus .link {
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-size: 15px;
+  margin: 0 12px;
+}
+.Navbar .Theam-icon {
+  font-size: 25px;
+  margin: 0 35px;
+  cursor: pointer;
+  transition: all ease-in 0.5s;
+  position: absolute;
+  top: 12px;
+  right: 8px;
+}
+
+.mobile-menue {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0px;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.2588235294);
+  z-index: 9999;
+}
+.mobile-menue .links {
+  width: 80%;
+}
+.mobile-menue a {
+  width: 4em;
+  padding: 5px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  border-radius: 10px;
+}
+.mobile-menue .close {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 860px) {
+  .Navbar {
+    justify-content: center !important;
+  }
+  .Navbar .menus {
+    display: none;
+  }
+}/*# sourceMappingURL=Navbar.css.map */

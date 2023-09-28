@@ -1,0 +1,106 @@
+.Services {
+  width: 100%;
+  margin: 15px 0;
+}
+.Services .services-container {
+  width: 80%;
+  padding: 20px;
+}
+.Services .services-container .service-card {
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 15px;
+  margin: 20px;
+  width: 13em;
+  aspect-ratio: 1/0.8;
+  transition: all 0.3s ease;
+}
+.Services .services-container .service-card h1,
+.Services .services-container .service-card h6 {
+  letter-spacing: 1px;
+}
+.Services .services-container .service-card:hover {
+  transform: scale(1.15);
+  box-shadow: 0px 0px 15px 0px rgb(107, 103, 107);
+}
+.Services .service-details {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.1921568627);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+.Services .service-details .card {
+  position: relative;
+  width: 40vw;
+  aspect-ratio: 1/1;
+  border-radius: 12px;
+  padding: 20px;
+}
+.Services .service-details .close {
+  cursor: pointer;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+.Services .service-details .s-list {
+  margin: 20px 0;
+  letter-spacing: 1.2px;
+}
+.Services .service-details .s-list .list {
+  margin: 10px 0;
+}
+.Services .service-details .s-list .list .tick {
+  color: rgb(8, 177, 8);
+}
+@keyframes popSCard {
+  0% {
+    top: 100vh;
+    left: 100vw;
+  }
+  100% {
+    top: 0;
+    left: 0;
+  }
+}
+
+@media only screen and (max-width: 1070px) {
+  .services-container {
+    width: 90% !important;
+  }
+}
+@media only screen and (max-width: 952px) {
+  .services-container {
+    width: 90% !important;
+  }
+  .services-container .service-card {
+    padding: 10px !important;
+    margin: 10px !important;
+    width: 11em !important;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .service-details .card {
+    width: 60vw !important;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .service-details .card {
+    width: 70vw !important;
+  }
+}
+@media only screen and (max-width: 445px) {
+  .service-details .card {
+    width: 75vw !important;
+  }
+  .service-details .card h1,
+  .service-details .card h4,
+  .service-details .card .list {
+    font-size: 80%;
+  }
+}/*# sourceMappingURL=Services.css.map */

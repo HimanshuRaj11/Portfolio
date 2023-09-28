@@ -1,0 +1,19 @@
+.Contact {
+  width: 100%;
+  width: 100%;
+  margin: 10px 0;
+}
+.Contact .contact-container .c-card {
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 15em;
+  height: 1/0.5;
+  border-radius: 8px;
+  margin: 22px;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+.Contact .contact-container .c-card:hover {
+  transform: scale(1.15);
+  box-shadow: 0px 0px 15px 0px rgb(107, 103, 107);
+}/*# sourceMappingURL=Contact.css.map */

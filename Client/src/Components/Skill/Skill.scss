@@ -1,0 +1,124 @@
+.Skill{
+    width: 100%;
+    height: auto;
+    margin: 5vh 0;
+
+    .s-container{
+    width: 80%;
+    flex-wrap: wrap;
+    
+        .skill-box{
+            margin: 15px 30px;
+            .s-circle{
+                position: relative;
+                width: 160px;
+                aspect-ratio: 1/1;
+
+                .outer-c{
+                    width: 160px;
+                    aspect-ratio: 1/1;
+                    border-radius: 50%;
+                    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                                -6px -6px 10px -1px rgba(255,255,255,0.7);
+
+                    .inner-c{
+                        width: 120px;
+                        aspect-ratio: 1/1;
+
+                        border-radius: 50%;
+                        box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                                    inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                                    -0.5px -0.5px 0px rgba(255,255,255,1),
+                                    0.5px 0.5px 0px rgba(0,0,0,0.15),
+                                    0px 12px 10px -10px rgba(0,0,0,0.05);
+                        
+                                    .number{
+                                        font-weight: 600;
+                                        font-size: 26px;
+                                    }
+                                    .s-name{
+                                        font-size: 14px;
+                                    }
+                                }
+                }
+
+                circle{
+                    fill: none;
+                    stroke: url('#GradientColor');
+                    stroke-width: 20px;
+                    stroke-dasharray: 470;
+                    stroke-dashoffset: 470;
+                }
+                .circle-0{
+                    animation: circle-0 2s linear forwards;
+
+                }
+                @keyframes circle-0 {
+                    100%{
+                        stroke-dashoffset: 164;
+                    }
+                }
+
+                .circle-1{
+                    animation: circle-1 2s linear forwards;
+
+                }
+                @keyframes circle-1 {
+                    100%{
+                        stroke-dashoffset: 188;
+                    }
+                }
+                .circle-2{
+                    animation: circle-2 2s linear forwards;
+
+                }
+                @keyframes circle-2 {
+                    100%{
+                        stroke-dashoffset: 258;
+                    }
+                }
+                .circle-3{
+                    animation: circle-3 2s linear forwards;
+
+                }
+                @keyframes circle-3 {
+                    100%{
+                        stroke-dashoffset: 117;
+                    }
+                }
+                .circle-4{
+                    animation: circle-4 2s linear forwards;
+
+                }
+                @keyframes circle-4 {
+                    100%{
+                        stroke-dashoffset: 197;
+                    }
+                }
+                .circle-5{
+                    animation: circle-5 2s linear forwards;
+
+                }
+                @keyframes circle-5 {
+                    100%{
+                        stroke-dashoffset: 188;
+                    }
+                }
+                .circle-6{
+                    animation: circle-6 2s linear forwards;
+
+                }
+                @keyframes circle-6 {
+                    100%{
+                        stroke-dashoffset: 376;
+                    }
+                }
+                svg{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+            }
+        }
+    }
+}

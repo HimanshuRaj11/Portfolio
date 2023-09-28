@@ -1,0 +1,42 @@
+.Portfolio {
+  width: 100%;
+}
+.Portfolio .work {
+  width: 80%;
+  padding: 20px 0 50px 0;
+}
+.Portfolio .work .projects {
+  width: 100%;
+}
+.Portfolio .work .projects .project {
+  cursor: pointer;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  width: 18em;
+  height: auto;
+  transition: all 1.3s ease;
+}
+.Portfolio .work .projects .project:hover {
+  transform: scale(1.09);
+  box-shadow: 0px 0px 15px 0px rgb(107, 103, 107);
+}
+.Portfolio .work .projects .project .img {
+  width: 18em;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.Portfolio .work .projects .project .img img {
+  width: 18em;
+  border-radius: 10px;
+}
+.Portfolio .work .projects .project .P-D {
+  padding: 5px 20px;
+}
+
+@media only screen and (max-width: 1070px) {
+  .work {
+    width: 90% !important;
+  }
+}/*# sourceMappingURL=Portfolio.css.map */

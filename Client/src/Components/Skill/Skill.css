@@ -1,0 +1,104 @@
+.Skill {
+  width: 100%;
+  height: auto;
+  margin: 5vh 0;
+}
+.Skill .s-container {
+  width: 80%;
+  flex-wrap: wrap;
+}
+.Skill .s-container .skill-box {
+  margin: 15px 30px;
+}
+.Skill .s-container .skill-box .s-circle {
+  position: relative;
+  width: 160px;
+  aspect-ratio: 1/1;
+}
+.Skill .s-container .skill-box .s-circle .outer-c {
+  width: 160px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+.Skill .s-container .skill-box .s-circle .outer-c .inner-c {
+  width: 120px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2), inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7), -0.5px -0.5px 0px rgb(255, 255, 255), 0.5px 0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+}
+.Skill .s-container .skill-box .s-circle .outer-c .inner-c .number {
+  font-weight: 600;
+  font-size: 26px;
+}
+.Skill .s-container .skill-box .s-circle .outer-c .inner-c .s-name {
+  font-size: 14px;
+}
+.Skill .s-container .skill-box .s-circle circle {
+  fill: none;
+  stroke: url("#GradientColor");
+  stroke-width: 20px;
+  stroke-dasharray: 470;
+  stroke-dashoffset: 470;
+}
+.Skill .s-container .skill-box .s-circle .circle-0 {
+  animation: circle-0 2s linear forwards;
+}
+@keyframes circle-0 {
+  100% {
+    stroke-dashoffset: 164;
+  }
+}
+.Skill .s-container .skill-box .s-circle .circle-1 {
+  animation: circle-1 2s linear forwards;
+}
+@keyframes circle-1 {
+  100% {
+    stroke-dashoffset: 188;
+  }
+}
+.Skill .s-container .skill-box .s-circle .circle-2 {
+  animation: circle-2 2s linear forwards;
+}
+@keyframes circle-2 {
+  100% {
+    stroke-dashoffset: 258;
+  }
+}
+.Skill .s-container .skill-box .s-circle .circle-3 {
+  animation: circle-3 2s linear forwards;
+}
+@keyframes circle-3 {
+  100% {
+    stroke-dashoffset: 117;
+  }
+}
+.Skill .s-container .skill-box .s-circle .circle-4 {
+  animation: circle-4 2s linear forwards;
+}
+@keyframes circle-4 {
+  100% {
+    stroke-dashoffset: 197;
+  }
+}
+.Skill .s-container .skill-box .s-circle .circle-5 {
+  animation: circle-5 2s linear forwards;
+}
+@keyframes circle-5 {
+  100% {
+    stroke-dashoffset: 188;
+  }
+}
+.Skill .s-container .skill-box .s-circle .circle-6 {
+  animation: circle-6 2s linear forwards;
+}
+@keyframes circle-6 {
+  100% {
+    stroke-dashoffset: 376;
+  }
+}
+.Skill .s-container .skill-box .s-circle svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}/*# sourceMappingURL=Skill.css.map */

@@ -1,0 +1,111 @@
+.About {
+  width: 100%;
+  height: auto;
+}
+.About .headline {
+  width: 80%;
+  height: 15vh;
+}
+.About .headline h1 {
+  font-size: 35px;
+}
+.About .headline h1,
+.About .headline h4 {
+  letter-spacing: 1.2px;
+  margin: 2px 0;
+}
+.About .Details {
+  width: 80%;
+  height: auto;
+}
+.About .Details .img-part {
+  height: 100%;
+  width: 50%;
+}
+.About .Details .img-part .img {
+  overflow: hidden;
+  border-radius: 12px;
+  height: 20em;
+  aspect-ratio: 1/1;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+.About .Details .img-part .img img {
+  height: 25em;
+}
+.About .Details .D-part {
+  width: 50%;
+  height: auto;
+}
+.About .Details .D-part .info {
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.About .Details .D-part .info .info-card {
+  padding: 15px 25px;
+  margin: 10px 0;
+  border: 1px solid #b3b6b7;
+  border-radius: 5px;
+  width: 5em;
+}
+.About .Details .D-part .about-text p {
+  text-align: justify;
+  line-height: 22px;
+  margin: 13px;
+}
+.About .Details .D-part .btn-c {
+  margin: 10px 13px;
+  padding: 10px 20px;
+  font-size: 21px;
+  background-color: #f1c40f;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.About .Details .D-part .btn-c:active {
+  box-shadow: 0px 0px 11px 0px rgb(241, 196, 15);
+  transform: skewX(5deg);
+}
+
+@media only screen and (max-width: 1010px) {
+  .About .Details {
+    width: 90% !important;
+  }
+  .About .img {
+    height: 18em !important;
+  }
+  .About .img img {
+    height: 22em !important;
+  }
+  .About .info .info-card {
+    padding: 10px 15px;
+    margin: 10px 0;
+  }
+  .About .info .info-card h3,
+  .About .info .info-card h6 {
+    font-size: 80%;
+  }
+}
+@media only screen and (max-width: 920px) {
+  .info .info-card {
+    padding: 8px !important;
+    width: 5em !important;
+  }
+  .img-part {
+    width: auto !important;
+    margin: 0 10px !important;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .Details {
+    flex-direction: column !important;
+  }
+  .Details .img-part {
+    width: 80% !important;
+  }
+  .Details .D-part {
+    width: 80% !important;
+  }
+  .Skill .s-container .skill-box .s-circle {
+    width: 115px !important;
+  }
+}/*# sourceMappingURL=About.css.map */
