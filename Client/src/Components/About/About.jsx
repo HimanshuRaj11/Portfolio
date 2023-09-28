@@ -1,14 +1,17 @@
 import "./About.css";
+import {NavLink, useNavigate} from "react-router-dom"
 import { ImHeadphones } from "react-icons/im";
 import {HiMiniDocumentArrowDown} from "react-icons/hi2"
 import {AiFillProject} from "react-icons/ai"
 import {MdDesignServices} from "react-icons/md"
 
 const About = ({ lightBg }) => {
+
+ 
   const projects = 6;
   return (
     <div className="About  center column" id="About">
-      <div className="headline  center column">
+      <div className="headline center column">
         <h1>ABOUT ME</h1>
         <h4 className={`${lightBg ? "d-sub-text" : "l-sub-text"}`}>
           My Introduction
@@ -62,7 +65,8 @@ const About = ({ lightBg }) => {
               Python/Machine Learning.
             </p>
           </div>
-          <button className={`btn btn-c ${lightBg?"d-text":"l-text"}`}>Download cv <HiMiniDocumentArrowDown style={{fontSize:"25px"}} /> </button>
+          <NavLink to={"http://localhost:3000/public/resume.pdf"} target="_blank" className={`btn btn-c ${lightBg?"d-text":"l-text"}`} >
+            View cv <HiMiniDocumentArrowDown style={{fontSize:"25px"}} /> </NavLink>
         </div>
       </div>
       
