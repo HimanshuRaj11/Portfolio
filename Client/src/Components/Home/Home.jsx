@@ -14,17 +14,17 @@ const Home = ({ lightBg }) => {
     <div className={`Home row center`} id="Home">
       <div className="w d-flex row a-center">
         <div className="s-part d-flex j-center column">
-          <NavLink>
+          <NavLink  to={"https://www.instagram.com/raaz_himanshu_yadav/"}>
             <AiFillInstagram className="s-icon" />
           </NavLink>
-          <NavLink>
+          <NavLink  to={"https://www.github.com/HimanshuRaj11/"}>
             <AiFillGithub className="s-icon" />
           </NavLink>
-          <NavLink>
-            <AiFillTwitterCircle className="s-icon" />
+          <NavLink to={"https://www.twitter.com/Himanshu_Raaz_"}>
+            <AiFillTwitterCircle  className="s-icon" />
           </NavLink>
-          <NavLink>
-            <AiFillLinkedin className="s-icon" />
+          <NavLink to={"https://www.linkedin.com/in/himanshu-raj-37b185252"}>
+            <AiFillLinkedin  className="s-icon" />
           </NavLink>
         </div>
 
