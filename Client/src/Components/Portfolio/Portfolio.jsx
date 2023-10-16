@@ -17,7 +17,7 @@ const Portfolio = ({ lightBg }) => {
           <NavLink data-aos="fade-up" to={'https://tfc-beryl.vercel.app/'}>
             <div className={`project ${lightBg ? "light-comp" : "dark-comp"}`}>
               <div className="img">
-                <img src="https://tfc-beryl.vercel.app/" alt="" />
+                <img src="https://colorlib.com/wp/wp-content/uploads/sites/2/restaurant-wordpress-themes1.jpg" alt="" />
               </div>
               <div className="P-D j-center column">
                 <h2 className="title">TFC</h2>
