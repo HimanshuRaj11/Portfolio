@@ -17,7 +17,7 @@ const Portfolio = ({ lightBg }) => {
           <NavLink data-aos="fade-up" to={'https://tfc-beryl.vercel.app/'}>
             <div className={`project ${lightBg ? "light-comp" : "dark-comp"}`}>
               <div className="img">
-                <img src="blob:https://vercel.com/7764193f-5e22-4e92-8258-7748e445968c" alt="" />
+                <img src="https://tfc-beryl.vercel.app/" alt="" />
               </div>
               <div className="P-D j-center column">
                 <h2 className="title">TFC</h2>
