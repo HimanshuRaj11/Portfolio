@@ -14,58 +14,20 @@ const Portfolio = ({ lightBg }) => {
 
       <div className="work">
         <div className="projects  center wrap">
-          <NavLink data-aos="fade-up">
+          <NavLink data-aos="fade-up" to={'https://tfc-beryl.vercel.app/'}>
             <div className={`project ${lightBg ? "light-comp" : "dark-comp"}`}>
               <div className="img">
                 <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" alt="" />
               </div>
               <div className="P-D j-center column">
-                <h2 className="title">Name</h2>
+                <h2 className="title">TFC</h2>
                 <span className="view">
                   View <AiOutlineArrowRight />{" "}
                 </span>
               </div>
             </div>
           </NavLink>
-          <NavLink data-aos="fade-up">
-            <div className={`project ${lightBg ? "light-comp" : "dark-comp"}`}>
-              <div className="img">
-                <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" alt="" />
-              </div>
-              <div className="P-D j-center column">
-                <h2 className="title">Name</h2>
-                <span className="view">
-                  View <AiOutlineArrowRight />{" "}
-                </span>
-              </div>
-            </div>
-          </NavLink>
-          <NavLink data-aos="fade-up">
-            <div className={`project ${lightBg ? "light-comp" : "dark-comp"}`}>
-              <div className="img">
-                <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" alt="" />
-              </div>
-              <div className="P-D j-center column">
-                <h2 className="title">Name</h2>
-                <span className="view">
-                  View <AiOutlineArrowRight />{" "}
-                </span>
-              </div>
-            </div>
-          </NavLink>
-          <NavLink data-aos="fade-up">
-            <div className={`project ${lightBg ? "light-comp" : "dark-comp"}`}>
-              <div className="img">
-                <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" alt="" />
-              </div>
-              <div className="P-D j-center column">
-                <h2 className="title">Name</h2>
-                <span className="view">
-                  View <AiOutlineArrowRight />{" "}
-                </span>
-              </div>
-            </div>
-          </NavLink>
+        
 
         </div>
       </div>
