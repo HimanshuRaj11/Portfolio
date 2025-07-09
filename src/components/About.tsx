@@ -60,7 +60,7 @@ const About = () => {
           rounded-lg text-white font-medium hover:shadow-lg hover:shadow-blue-500/25 transition-all duration-300
           hover:scale-105"
                         >
-                            Let's Work Together
+                            Let{"'"}s Work Together
                         </a>
                     </div>
 
