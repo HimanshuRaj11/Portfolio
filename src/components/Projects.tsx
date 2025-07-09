@@ -62,7 +62,7 @@ const Projects = () => {
                     </h2>
                     <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-blue-600 mx-auto mb-6"></div>
                     <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-                        Here are some of the projects I've worked on, showcasing my skills and experience
+                        Here are some of the projects I{"'"}ve worked on, showcasing my skills and experience
                     </p>
                 </div>
 

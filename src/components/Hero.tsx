@@ -22,7 +22,7 @@ const Hero = () => {
                 <div className="text-center">
                     <div className="mb-8 animate-slide-up">
                         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6">
-                            Hello, I'm{' '}
+                            Hello, I{"'"}m
                             <span className="gradient-text">Himanshu</span>
                         </h1>
                         <h2 className="text-xl sm:text-2xl lg:text-3xl text-gray-300 mb-8">

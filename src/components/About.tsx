@@ -41,7 +41,7 @@ const About = () => {
                     {/* Text Content */}
                     <div className="animate-slide-up">
                         <h3 className="text-2xl font-semibold mb-6 text-blue-400">
-                            Hi, I'm Himanshu Raj Yadav
+                            Hi, I{"'"}m Himanshu Raj Yadav
                         </h3>
                         <p className="text-gray-300 text-lg leading-relaxed mb-6">
                             A dedicated full-stack developer currently pursuing B.Tech from Chandigarh Group of Colleges.

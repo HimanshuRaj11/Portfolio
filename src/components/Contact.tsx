@@ -44,7 +44,7 @@ const Contact = () => {
                     </h2>
                     <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-blue-600 mx-auto mb-6"></div>
                     <p className="text-gray-400 max-w-2xl mx-auto">
-                        Feel free to reach out for collaborations, inquiries, or just to say hi! I'm always open to new opportunities and conversations.
+                        Feel free to reach out for collaborations, inquiries, or just to say hi! I{"'"}m  always open to new opportunities and conversations.
                     </p>
                 </div>
 
