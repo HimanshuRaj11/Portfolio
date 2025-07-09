@@ -46,7 +46,7 @@ const Header = () => {
                                 {item.label}
                             </Link>
                         ))}
-                        <Link href={'/HimanshuRaj.pdf'} className="text-gray-300 hover:text-amber-700 transition-colors duration-200 hover:scale-105 transform flex flex-row border rounded-sm py-1 px-4 bg-amber-700 hover:bg-white">
+                        <Link href={'/HimanshuRaj.pdf'} target="_blank" className="text-gray-300 hover:text-amber-700 transition-colors duration-200 hover:scale-105 transform flex flex-row border rounded-sm py-1 px-4 bg-amber-700 hover:bg-white">
                             <Download /> Resume
                         </Link>
                     </div>
@@ -75,7 +75,7 @@ const Header = () => {
                                 </Link>
                             ))}
 
-                            <Link href={'/HimanshuRaj.pdf'} className="text-gray-300 hover:text-amber-700 transition-colors duration-200 hover:scale-105 transform flex w-fit flex-row border rounded-sm py-1 px-4 bg-amber-700 hover:bg-white">
+                            <Link href={'/HimanshuRaj.pdf'} target="_blank" className="text-gray-300 hover:text-amber-700 transition-colors duration-200 hover:scale-105 transform flex w-fit flex-row border rounded-sm py-1 px-4 bg-amber-700 hover:bg-white">
                                 <Download /> Resume
                             </Link>
 
