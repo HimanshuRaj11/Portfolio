@@ -26,7 +26,7 @@ const Header = () => {
     ]
     return (
         <header
-            className={`fixed top-0 w-full z-50 transition-all duration-300 animate-slide-up ${isScrolled ? 'backdrop-blur-xl shadow-lg' : 'bg-transparent'
+            className={`fixed top-0 w-full z-50 transition-all duration-300 animate-slide-up ${isScrolled || isMobileMenuOpen ? 'backdrop-blur-xl shadow-lg' : 'bg-transparent'
                 }`}
         >
             <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -53,7 +53,7 @@ const Header = () => {
 
                     {/* Mobile Menu Button */}
                     <button
-                        className="md:hidden text-white"
+                        className="md:hidden text-white cursor-pointer"
                         onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                     >
                         {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
